@@ -1,0 +1,13 @@
+.departures {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.departure-card {
+  display: grid;
+  grid-template-columns: 10% 30% 20% 20% 20%;
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,13 @@
+.weather {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.weather-card {
+  display: grid;
+  grid-template-columns: 40% 30% 30%;
+  width: 100%;
+  height: 100%;
+}
