@@ -46,7 +46,7 @@ jobs:
             ghcr.io/linus-berg/${{ matrix.services.name }}:latest
             ghcr.io/linus-berg/${{ matrix.services.name }}:${{ github.sha }}
           # build on feature branches, push only on main branch
-          push: ${{ github.ref == 'refs/heads/master' }}
+          push: ${{ github.ref == 'refs/heads/main' }}
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
